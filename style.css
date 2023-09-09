@@ -1,0 +1,110 @@
+/* WELCOME TO MY WEBPAGE */
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size:14px;
+    color:blanchedalmond;
+
+    width:786px;
+
+    background-color:rgb(32, 32, 36);
+    padding-left:33px;
+    padding-right:33px;
+}
+
+/* Headers */
+h1 {
+    font-weight: 800;
+ 
+    background-color:rgb(10, 10, 32);
+    padding:7px;
+
+    border-style: none none none double;
+    border-width:2px;
+}
+h1.home {
+    text-align:center;
+
+    border-style:double;
+
+    margin-bottom:33px;
+}
+h2 {
+    background-color:rgb(10, 10, 32);
+    padding: 2px;
+
+    border-style: none none double;
+    border-width:1px;
+}
+h3 {
+    background-color:rgb(10, 10, 32);
+    padding:2px;
+}
+/*Home page recipe list*/
+div.home {
+    font-size:16px;
+    /*
+    border-left-style:solid;
+    border-width:1px;
+    border-color:blanchedalmond;
+    */
+}
+
+/* Paragraphs */
+p.out { /* Recipe source following description */
+    font-style:italic;
+}
+
+/* Links */
+a:link, a:visited {
+    text-decoration: none;
+    color:blanchedalmond;
+}
+a:hover, a:active {
+    text-decoration: underline;
+    color:indianred;
+}
+
+/* Lists */
+ol {
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+ul {
+    list-style-type:none;
+    margin:10px;
+    padding:0px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+ol ul{
+    list-style-type:square;
+    margin-bottom:0px;
+}
+
+/* Buttons */
+button.return {
+    margin-top:5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    color:blanchedalmond;
+    opacity: 0.8;
+
+    border:double;
+    border-color:rgb(10, 10, 32);
+    border-width:1px;
+}
+button.return:hover {
+    opacity:1;
+}
+button a:link, button a:visited {
+    color:rgb(10, 10, 32);
+}
+button a:hover, button a:active {
+    text-decoration:none;
+}
